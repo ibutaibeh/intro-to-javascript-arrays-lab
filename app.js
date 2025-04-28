@@ -23,15 +23,15 @@ food5.splice(1,0,'tofu');
 console.log(`Exercise 5 result:${food5}`);
 //----------------------------------------------------------------
 //Exercise 6
-const food6 =food5.splice(0,2,"sushi","cupcake");
-console.log(`Exercise 6 result:${food6}`);
+food5.splice(0,1,"sushi","cupcake");
+console.log(`Exercise 6 result:${food5}`);
 //----------------------------------------------------------------
 //Exercise 7
 const yummy= food5.slice(0,2);
 console.log(`Exercise 7 result:${yummy}`);
 //----------------------------------------------------------------
 //Exercise 8
-const soyIdx= food6.indexOf("tofu");
+const soyIdx= food5.indexOf("tofu");
 console.log(`Exercise 8 result:${soyIdx}`);
 //----------------------------------------------------------------
 //Exercise 9
